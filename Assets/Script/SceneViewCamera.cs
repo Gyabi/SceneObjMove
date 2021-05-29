@@ -15,6 +15,7 @@ public class SceneViewCamera : MonoBehaviour
   [SerializeField, Range(0.1f, 10f)]
   private float rotateSpeed = 0.3f;
 
+
   private Vector3 preMousePos;
 
  MainCameraManeger mainCameraManeger;
